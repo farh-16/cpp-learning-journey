@@ -21,5 +21,10 @@ int main()
    cout<<x*y<<endl;
    else if(op=='/')
     cout<<x/y<<endl;
+    else if(op=='%')
+    cout<<(x/y)*100<<endl;
+
+    else
+    cout<<"Invalid operator"<<endl;
 
 }
