@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x;
+    cout<<"give the number to count its digit:- ";
+    cin>>x;
+    
+    int sum=0;
+    while(x>0){
+        
+        int ld= x%10;
+
+        x=x/10;  // x/=x
+        if(ld%2==0)
+
+        sum+=ld; //sum= sum + ld
+        
+    }
+
+    cout<<sum<<endl;
+    
+}
