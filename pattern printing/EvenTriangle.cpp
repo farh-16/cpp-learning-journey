@@ -12,12 +12,5 @@ int main()
         cout<<endl;
     }
 
-    for(int i=1; i<=m; i++){
-        int a=1;
-        for(int j=1; j<=i; j++){
-           cout<<j<<"   " ;
-           a+=2;
-       }
-        cout<<endl;
-    }
+    
 }
