@@ -4,13 +4,13 @@ int main()
 {
 
    float x;
-   cout<<"Enter a number : ";
+   //cout<<"Enter a number : ";
    cin>>x;
    char op;
-   cout<<"Enter operator : ";
+   //cout<<"Enter operator : ";
     cin>>op;
    float y;
-   cout<<"Enter second number : ";
+   //cout<<"Enter second number : ";
    cin>>y;
 
    if(op=='+')
@@ -22,9 +22,16 @@ int main()
    else if(op=='/')
     cout<<x/y<<endl;
     else if(op=='%')
-    cout<<(x/y)*100<<endl;
+    cout<<(x/y)*100<<"%"<<endl;
 
     else
     cout<<"Invalid operator"<<endl;
+
+
+
+
+
+
+    
 
 }

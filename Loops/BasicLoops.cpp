@@ -8,7 +8,7 @@ int main()
     string w;
     cout<<"Enter a word : ";
     cin>>w;
-    for(int i=10;i>=x;i--)
+    for(int i=1;i<=x;i++)
     {
         cout<<w<<endl;
     }

@@ -11,7 +11,7 @@ int main()
         }
         cout<<endl;
     }
-    for(int k=m; k>=1; k--){
+    for(int k=1+m; k>=1; k--){
         for(int l=1; l<=k; l++){
             cout<<(char)(l+64)<<" ";
         }

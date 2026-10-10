@@ -8,7 +8,8 @@ int main()
     for(int i=n/2; i>=1; i--){
     if(n%i==0){
         cout<<i<<endl;
-        break;
+        break; //to get out of the loop after first factor is found
+        // break;    is used  to break loop
         
     }
     }

@@ -3,14 +3,15 @@ using namespace std;
 int main(){
 
     int x;
-    cout<<"give the number to find its factorial:- ";
+    cout<<"find factorial upto :- ";
     cin>>x;
-    int fact=1;
-    while(x>0){
-
-        int ld= x%10;
-        x=x/10;  
-        fact= fact*ld;
-    }
-    cout<<"Factorial of the given number is:- "<<fact<<endl;
+    long long fact =1;
+    for(int i=1; i<=x; i++){
+    fact *=i;
+    
+        //int ld= x%10;
+        //x=x/10;  
+        //fact= fact*ld;
+    
+    cout<<"factorial of" <<i<< " = " << fact << endl;}
 }

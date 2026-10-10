@@ -15,8 +15,12 @@ Build a strong foundation in C++ and gradually progress toward:
 
 This repository will be updated continuously as I learn and practice new concepts.
 
+Each program represents part of my learning process, including basic exercises and future DSA/problem-solving practice.
+
 ## 🛠️ Language
 
 - C++
+
+---
 
 *Learning consistently. Building step by step.*
